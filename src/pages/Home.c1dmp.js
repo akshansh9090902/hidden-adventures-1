@@ -13,7 +13,7 @@ $w.onReady(function () {
 
     // Listen for messages from the HTML Embed element
     // Replace '#htmlEmbed1' with the actual ID of your HTML Embed element
-    $w("#htmlEmbed1").onMessage((event) => {
+    $w("#html1").onMessage((event) => {
         const message = event.data;
 
         if (message.type === 'searchWidgetData') {
